@@ -76,7 +76,7 @@
         }
         public virtual bool Withdraw(double amount)
         {
-            if (amount - amount >= 0)
+            if (balnce - amount >= 0)
             {
                 balnce -= amount;
                 return true;
@@ -108,7 +108,7 @@
         }
         public override bool Withdraw(double amount)
         {
-            if (amount - amount >= 0)
+            if (balnce - amount >= 0)
             {
                 balnce -= amount;
                 return true;
@@ -134,7 +134,7 @@
         }
         public override bool Withdraw(double amount)
         {
-            if (amount - amount >= 0)
+            if (balnce - amount >= 0)
             {
 
                 balnce -= (amount + 1.5);
@@ -168,12 +168,16 @@
         }
         public override bool Withdraw(double amount)
         {
-            if (balnce * (20 / 100) <= amount)
+            for (int i = 0; i < 3; i++)
             {
-                balnce -= amount;
-                return true;
+                if (balnce * (20 / 100) >= amount)
+                {
+                    balnce -= amount;
+                    return true;
+                } 
             }
             return false;
+
         }
     }
     public class Program
