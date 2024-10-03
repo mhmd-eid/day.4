@@ -1,0 +1,4 @@
+D:\509\day.4\task\systemPank\systemPank\obj\Debug\net8.0\systemPank.GeneratedMSBuildEditorConfig.editorconfig
+D:\509\day.4\task\systemPank\systemPank\obj\Debug\net8.0\systemPank.AssemblyInfoInputs.cache
+D:\509\day.4\task\systemPank\systemPank\obj\Debug\net8.0\systemPank.AssemblyInfo.cs
+D:\509\day.4\task\systemPank\systemPank\obj\Debug\net8.0\systemPank.csproj.CoreCompileInputs.cache
